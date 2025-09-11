@@ -5,6 +5,9 @@ entryPoint: main.sc
 botEngine: v2
 language: ru
 
+injector:
+    botName: КотВорд 💬
+
 tests:
   include:
     - test.xml
