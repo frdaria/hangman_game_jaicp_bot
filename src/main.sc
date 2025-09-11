@@ -62,7 +62,7 @@ theme: /
                 
 
         state: NotStart
-            q!: (не хочу/не буду/потом/не сейчас)
+            q!: (не хочу/не буду/потом/не сейчас/нет/не надо/не нужно)
             script:
                 $response.replies = $response.replies || [];
                 $response.replies.push({
